@@ -1,6 +1,5 @@
 name: 01A-Building Blocks
-on:
-  - workflow_dispatch
+on: workflow_dispatch
 
 jobs:
   echo-hello-again:
