@@ -1,15 +1,15 @@
-name: 01-Building Blocks
+name: 01A-Building Blocks
 on:
   - workflow_dispatch
 
 jobs:
-  echo-hello:
+  echo-hello-again:
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello
-        run: echo "Hello World"
+      - name: Say Hello Again
+        run: echo "Hello Again World"
 
-  echo-goodbye:
+  echo-goodbye-again:
     runs-on: ubuntu-latest
     steps:
       - name: Failed step
@@ -17,7 +17,6 @@ jobs:
           echo "I"
           echo "Have"
           echo "Failed"
-          exit 1
       
-      - name: say goodbye
-        run: echo "Goodbye"
+      - name: say goodbye again
+        run: echo "Goodbye again"
