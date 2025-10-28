@@ -1,6 +1,6 @@
 name: 01C-building-blocks
 
-on: workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   print_message:
