@@ -1,6 +1,8 @@
 name: 01A-Building Blocks
-
-on: workflow_dispatch
+run-name: Simple Message
+on: 
+  workflow_dispatch:
+  push:
 
 jobs:
   echo-hello-again:
@@ -15,7 +17,7 @@ jobs:
       - name: Failed step
         run: |
           echo "I"
-          echo "Have"
+          echo "Have Not"
           echo "Failed"
       
       - name: say goodbye again
