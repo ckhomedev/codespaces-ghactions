@@ -1,10 +1,12 @@
 name: 01C-building-blocks
 
-on: workflow_dispatch
+on:
+  push:
+    branch: actions2
 
 jobs:
   print_message:
     runs-on: ubuntu-latest
     steps:
         - name: print something
-          run: echo "this is the third workflow in the ahact2 branch"
+          run: echo "this text is coming from actions2 branch"
