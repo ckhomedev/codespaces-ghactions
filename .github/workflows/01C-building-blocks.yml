@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: print something
-          run: echo "this text is coming from actions2 branch"
+          run: |
+            echo "this text is coming from actions2 branch"
