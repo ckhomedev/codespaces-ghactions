@@ -5,7 +5,7 @@ on: push
 
 jobs:
   print-something:
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest
     steps:
       - name: Print Hello
         run: echo "Hello from workflow Act3-Print"
