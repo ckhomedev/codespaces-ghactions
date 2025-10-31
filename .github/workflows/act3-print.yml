@@ -4,7 +4,7 @@ run-name: Act3-Print
 on: push
 
 jobs:
-  print something:
+  print-something:
     runs-on: ubuntu-latests
     steps:
       - name: Print Hello
