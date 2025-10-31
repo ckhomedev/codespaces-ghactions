@@ -1,5 +1,5 @@
 name: 01C-building-blocks
-run-name: Run from actions2
+run-name: Run by @${{ github.actor }} - {{ github.ref }}
 
 on:
   push:
