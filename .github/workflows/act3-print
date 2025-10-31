@@ -1,0 +1,12 @@
+name: Act3-Print
+run-name: Act3-Print
+
+on: push
+
+jobs:
+  name: print something
+  runs-on: ubuntu-latests
+  steps:
+    name: Print Hello
+    run: echo "Hello from workflow Act3-Print"
+    
