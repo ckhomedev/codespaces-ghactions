@@ -7,6 +7,6 @@ jobs:
   print something:
     runs-on: ubuntu-latests
     steps:
-      name: Print Hello
-      run: echo "Hello from workflow Act3-Print"
+      - name: Print Hello
+        run: echo "Hello from workflow Act3-Print"
     
